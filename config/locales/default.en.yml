@@ -1,0 +1,15 @@
+en:
+  date:
+    formats:
+      default: "%m/%d/%Y"
+    today_at: "today at"
+    yesterday_at: "yesterday at"
+
+  time:
+    formats:
+      default: "%m/%d/%Y %H:%M"
+      time: "%H:%M"
+
+  pagination:
+    previous: "&laquo; Previous"
+    next: "Next &raquo;"

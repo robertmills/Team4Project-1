@@ -1,0 +1,93 @@
+en:
+  flash:
+    locomotive:
+      pages:
+        create:
+          notice: "Page was successfully created."
+          alert: "Page was not created."
+        update:
+          notice: "Page was successfully updated."
+          alert: "Page was not updated."
+        sort:
+          notice: "Pages were successfully sorted."
+        destroy:
+          notice: "Page was successfully deleted."
+
+      content_entries:
+        create:
+          notice: "Entry was successfully created."
+          alert: "Entry was not created."
+        update:
+          notice: "Entry was successfully updated."
+          alert: "Entry was not updated."
+        sort:
+          notice: "Entries were successfully sorted."
+        destroy:
+          notice: "Entry was successfully deleted."
+
+      content_types:
+        update:
+          notice: "Model was successfully updated."
+          alert: "Model was not updated."
+
+      current_site:
+        update:
+          notice: "My site was successfully updated."
+          alert: "My site was not updated."
+
+      accounts:
+        create:
+          notice: "Account was successfully created."
+          alert: "Account was not created."
+
+      my_account:
+        update:
+          notice: "My account was successfully updated."
+          alert: "My account was not updated."
+
+      sites:
+        create:
+          notice: "Site was successfully created."
+          alert: "Site was not created."
+        destroy:
+          notice: "Site was successfully deleted."
+
+      current_site_metafields:
+        update_all:
+          notice: "Site metafields were successfully updated."
+
+      memberships:
+        create:
+          notice: "Membership was successfully created."
+          alert: "Membership was not created."
+          already_created: "Account was already added the current site."
+
+      content_assets:
+        create:
+          notice: "Asset was successfully uploaded."
+          alert: "Asset was not uploaded."
+        bulk_create:
+          notice: "Assets were successfully uploaded."
+          alert: "Assets were not uploaded."
+        update:
+          notice: "Asset was successfully updated."
+          alert: "Asset was not updated."
+        destroy:
+          notice: "Asset was successfully deleted."
+          alert: "Asset was not deleted."
+
+      translations:
+        create:
+          notice: "Translation was successfully created."
+          alert: "Translation was not created."
+        update:
+          notice: "Translation was successfully updated."
+          alert: "Translation was not updated."
+        destroy:
+          notice: "Translation was successfully deleted."
+
+      custom_fields:
+        select_options:
+          update:
+            notice: "Field was successfully updated."
+            alert: "Field was not updated."
