@@ -1,4 +1,0 @@
-nl:
-  carrierwave:
-    errors:
-      integrity: 'is geen toegestaan bestandsformaat.'

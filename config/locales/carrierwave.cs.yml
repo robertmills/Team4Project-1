@@ -1,4 +1,0 @@
-cs:
-  carrierwave:
-    errors:
-      integrity: '  není dovolen tento typ souboru.'

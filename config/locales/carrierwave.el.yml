@@ -1,4 +1,0 @@
-el:
-  carrierwave:
-    errors:
-      integrity: 'δεν είναι ένας επιτρεπτός τύπος αρχείου.'
