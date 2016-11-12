@@ -1,0 +1,13 @@
+sudo: false
+script: "bundle exec rake travis"
+before_script: ./bin/ci/before_build.sh
+services: mongodb
+rvm:
+  - 2.2.0
+notifications:
+  email:
+    - didier@nocoffee.fr
+  irc: "irc.freenode.org#locomotivecms"
+branches:
+  only:
+    - master

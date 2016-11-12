@@ -1,0 +1,56 @@
+.search-bar {
+  text-align: right;
+
+  form {
+    display: inline-block;
+
+    .form-group {
+      position: relative;
+      top: -6px;
+      padding: 4px 6px;
+      margin-bottom: 0;
+      border: 1px solid #dadada;
+
+      input[type=text] {
+        @include box-shadow(none);
+        display: inline-block;
+        width: 200px;
+        height: 19px;
+        padding: 0;
+        font-size: 12px;
+        border: none;
+      }
+
+      .icon {
+        display: inline-block;
+        color: $nav-tabs-link-color;
+      }
+    }
+  }
+
+  &.search-bar-in-nav {
+    float: right;
+
+    .form-group {
+      top: 2px;
+    }
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  .search-bar {
+    margin-bottom: 16px;
+    text-align: left;
+
+    form {
+      .form-group {
+        top: 0;
+      }
+    }
+
+    &.search-bar-in-nav {
+      float: none;
+      margin-top: 16px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+===============================================================================
+
+The Locomotive Engine has been correctly installed in your Rails application.
+
+  1. Edit the main config files:
+
+    - config/initializers/carrierwave.rb
+    - config/initializers/devise.rb
+    - config/initializers/dragonfly.rb
+    - config/initializers/locomotive.rb
+    - config/devise.yml
+    - config/mongoid.yml
+    - config/routes.rb
+
+  2. Launch the server
+
+    > bundle exec rails server
+
+  3. Open your browser
+
+    > open localhost:3000
+
+  4. Enjoy !
+
+===============================================================================
